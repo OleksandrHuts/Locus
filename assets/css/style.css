@@ -7,7 +7,8 @@ h3,
 h4,
 h5,
 h6,
-ul {
+ul,
+p {
   margin: 0;
   padding: 0;
 }
@@ -42,7 +43,7 @@ body {
   z-index: 10;
   position: fixed;
   
-  background-color: rgb(178, 143, 143);
+  background-color: rgba(178, 143, 143, 0.1);
 }
 .min_container {
  display: flex;
@@ -55,21 +56,7 @@ body {
 .logo{
   display: flex;
 }
-.wrapper {
-}
 
-._container {
-}
-.heder_logo {
-
-}
-.logo_text {
-}
-.logo_link {
-
-}
-.header_menu {
-}
 .menu_list {
   display: flex;
   justify-content: space-between;
@@ -104,5 +91,25 @@ body {
 .item_link:hover::after{
   opacity: 1;
 }
+
 .signup {
+  background-color: rgba(88, 169, 165, 1);
+  padding: 20px 80px;
+  border-radius: 6px;
+  color: rgba(255, 255, 255, 1);
+  text-transform: capitalize;
+  font-size: 25px;
+}
+
+.logo_link {
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 52px;
+  color: #58A9A5;
+  margin-left: 10px;
+}
+
+.heder_logo {
+  display: flex;
+  align-items: center;
 }
