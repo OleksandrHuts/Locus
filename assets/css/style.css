@@ -40,17 +40,15 @@ body {
 .header {
   padding: 85px 0 105px 0;
   width: 100%;
-  z-index: 10;
+  z-index: 1;
   position: fixed;
+  background-color: #fff;
   
-  background-color: rgba(178, 143, 143, 0.1);
 }
 .min_container {
  display: flex;
  justify-content: space-between;
  align-items: center;
- width: 80%;
- margin: 0 auto;
   
 } 
 .logo{
@@ -92,7 +90,7 @@ body {
   opacity: 1;
 }
 
-.signup {
+.btn {
   background-color: rgba(88, 169, 165, 1);
   padding: 20px 80px;
   border-radius: 6px;
@@ -112,4 +110,28 @@ body {
 .heder_logo {
   display: flex;
   align-items: center;
+}
+
+.home {
+  padding-top: 305px;
+  display: flex;
+}
+
+.home_title {
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 105px;
+  padding-bottom: 50px;
+}
+
+.home_p {
+  font-size: 30px;
+  line-height: 45px;
+  padding-bottom: 50px;
+}
+
+.container {
+  width: 80%;
+  max-width: 1600px;
+  margin: 0 auto;
 }
