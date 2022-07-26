@@ -1,0 +1,95 @@
+/*Reset*/
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*General*/
+body {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+/*.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}*/
+._container {
+  max-width: 1610px;
+  margin: 0 auto;
+}
+
+/*------Header-------*/
+
+.header {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 50;
+}
+.header_contaiener {
+  display: flex;
+  min-height: 250px;
+  align-items: center;
+}
+.heder_logo {
+}
+
+.logo_text {
+  font-weight: 800;
+  font-size: 35px;
+  color: #58a9a5;
+  margin: 0 15px;
+}
+.logo_text:hover {
+  color: #404242;
+}
+.heder_logo:hover path {
+stroke: #404242;
+}
+.header_menu {
+  margin: 0 0 0 310px;
+}
+.menu_list {
+  display: flex;
+  gap: 85px;
+}
+.list_item {
+}
+.item_link {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 152%;
+  color: #404242;
+}
+.item_link:hover {
+  color: #58a9a5;
+  font-weight: 700;
+}
+.signup {
+  width: 271px;
+  height: 80px;
+  background-color: #58a9a5;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 80px;
+  color: #fff;
+  text-align: center;
+  margin: 0 0 0 200px;
+}
