@@ -41,7 +41,7 @@ body {
   padding: 85px 0 105px 0;
   width: 100%;
   z-index: 2;
-  position: fixed;
+  /* position: fixed; */
   background-color: #fff;
   
 }
@@ -120,14 +120,14 @@ body {
   padding-top: 100px;
 }
 
-.home_title {
+.section_title {
   font-weight: 800;
   font-size: 70px;
   line-height: 105px;
   margin-bottom: 50px;
 }
 
-.home_p {
+.section_p {
   font-size: 30px;
   line-height: 45px;
   margin-bottom: 50px;
@@ -167,3 +167,32 @@ body {
   left: 0;
   width: 100%;
 }
+
+.center {
+  text-align: center;
+}
+
+.how_it_works_video {
+  font-size: 0;
+}
+
+.video_content {
+  width: 60%;
+  /* font-size: 0; */
+}
+
+.video_content img {
+  width: 100%;
+}
+
+.video_text {
+  width: 40%;
+}
+
+.video_content, .video_text {
+  display: inline-block;
+  /* font-size: 0; */
+}
+ .video_text_p {
+  font-size: 16px;
+ }
