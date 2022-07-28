@@ -40,7 +40,7 @@ body {
 .header {
   padding: 85px 0 105px 0;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
   position: fixed;
   background-color: #fff;
   
@@ -113,25 +113,57 @@ body {
 }
 
 .home {
-  padding-top: 305px;
+  padding-top: 205px;
   display: flex;
+}
+.home_content{
+  padding-top: 100px;
 }
 
 .home_title {
   font-weight: 800;
   font-size: 70px;
   line-height: 105px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .home_p {
   font-size: 30px;
   line-height: 45px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
-.container {
+.corner{
+  border-radius: 20px 20px 20px 0px;
+  display: inline-block;
+}
+
+.home_btn{
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 38px;
+}
+
+.container{
   width: 80%;
   max-width: 1600px;
   margin: 0 auto;
+}
+
+.home_img{
+  position: relative;
+  padding-top: 10px;
+}
+
+.interior_img{
+  position: relative;
+  z-index: 1;
+  padding-top: 50px;
+}
+
+.bg_img{
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  width: 100%;
 }
